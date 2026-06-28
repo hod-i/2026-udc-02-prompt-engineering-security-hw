@@ -1,6 +1,6 @@
 ---
-name: <verb-object>            # e.g. add-tests, review-pr, write-docs
-description: <one line — what this prompt does and when to use it>
+name: add-test
+description: this promt should be used for 
 version: 1
 ---
 
@@ -9,7 +9,7 @@ version: 1
 ## Baseline (weak) — what you started from
 
 ```
-<the one-line vague prompt you began with>
+cover
 ```
 
 ## Production — markdown (OpenAI / GPT-5.x dialect)
