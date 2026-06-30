@@ -25,9 +25,9 @@
 
 | Category | Allowed tool / tier | Notes |
 |---|---|---|
-| Green | internal script | X |
-| Yellow | internal script | X |
-| Red | internal script |Щоб бути на безпечному боці, я попросив створити .ts для санітизації данних, і потім його можна буде використовувати для створення документа, що зменшить споживання токенів аналізу промтів, потім просто можна буде аналізувати за допомогою промту скільки данних санітизованих він знайшов і чи відповідають вони умовам безпекию. |
+| Green | Any AI tool | X |
+| Yellow | Copilot Business, GitHub Copilot | X |
+| Red | internal script, local models, | |
 
 ## 5. If a Leak Occurs
 

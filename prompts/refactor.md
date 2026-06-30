@@ -6,7 +6,7 @@ version: 1
 
 # refactor
 
-Senior developer which can analyze code in the `app/src/money.ts` and change if it is necessary.
+Senior developer who can analyze code in `app/src/money.ts` and change it when necessary.
 
 
 ## Production — markdown (GPT dialect)

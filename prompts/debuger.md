@@ -4,7 +4,7 @@ description: Analyzes logs and stack traces to identify root causes; suggests fi
 version: 1
 ---
 
-# debugger
+# debuger
 
 Analyzes all `*.log` files in `app/logs/` to identify root causes of errors and suggest fixes.
 
