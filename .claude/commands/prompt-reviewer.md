@@ -33,7 +33,6 @@ Output:
 Stop rules:
 - Ignore cosmetic issues (spelling, whitespace) when structure and intent are sound.
 - Never approve a prompt whose Goal overlaps an existing one, even if the wording differs.
-
 ```
 
 ## Production — XML (Claude dialect)
