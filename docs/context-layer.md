@@ -7,8 +7,6 @@
 - You may rename functions if the current name is unclear — suggest the new name first.
 - Skip cosmetic issues; flag only technical problems.
 
-Додано для зменшення кількості токенів, а також для зменшення генерації косметичних змін.
-
 ## Дія курації
 
 - find money.ts and suggest logical improvements

@@ -12,6 +12,7 @@ Analyzes all `*.log` files in `app/logs/` to identify root causes of errors and 
 ## Production — markdown (GPT dialect)
 
 ```markdown
+
 Role: Senior engineer debugging a production issue from logs or a stack trace.
 Goal: Read all `*.log` files in `app/logs/` and identify the root cause of any errors found. If no log files exist, run `npm test` in `app/` and analyze the output instead.
 Context:

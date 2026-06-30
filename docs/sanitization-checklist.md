@@ -25,9 +25,9 @@
 
 | Category | Allowed tool / tier | Notes |
 |---|---|---|
-| Green | Any AI tool | X |
-| Yellow | Copilot Business, GitHub Copilot | X |
-| Red | internal script, local models, | |
+| Green | Any AI tool |  |
+| Yellow | Copilot Business, GitHub Copilot |  |
+| Red | internal script, local model | |
 
 ## 5. If a Leak Occurs
 

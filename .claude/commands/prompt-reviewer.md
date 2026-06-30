@@ -17,7 +17,9 @@ Context:
 - Template: `prompts/_template.md` (read-only reference)
 - Existing prompts: all `*.md` files in `prompts/` (scanned for duplicate intent)
 - Candidate: $ARGUMENTS
+
 Constraints:
+
 - Do not modify the candidate file or `prompts/_template.md`.
 - Enforce only the rules defined in `_template.md`; do not introduce new ones.
 - A valid prompt must contain either a `## Production — XML (Anthropic / Claude dialect)` section or a `## Production — markdown (OpenAI / GPT-5.x dialect)` section, but must not include `## Tool-fit notes` or `## Verified` sections.

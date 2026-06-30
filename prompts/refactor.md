@@ -18,6 +18,7 @@ Context:
 - Target file: `app/src/money.ts` (read-only until user approves)
 - Tests: `app/src/money.test.ts` (run to verify changes)
 Constraints:
+
 - Propose changes first; apply only after user approval.
 - You may rename functions if the current name is unclear — suggest the new name first.
 - Skip cosmetic issues; flag only technical problems.
