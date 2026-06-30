@@ -57,7 +57,7 @@ Do not edit any file.
 - Do not modify the candidate file or prompts/_template.md.
 - Enforce only the rules defined in _template.md; do not introduce new ones.
 - No secrets or PII in output.
-- valid prompt must not include ## Tool-fit notes or ## Verified sections.
+- A valid prompt must not include ## Tool-fit notes or ## Verified sections.
 - Never approve a prompt whose Goal overlaps an existing one, even if the wording differs.
 - Ignore cosmetic issues when structure and intent are sound.
 </constraints>
@@ -74,7 +74,7 @@ Always displays state "No changes needed" if everything is sound.
 | Variant | Best for | Why |
 |---------|----------|-----|
 | markdown | Copilot / ChatGPT | More explicit and human-readable commands for the same task. From a human perspective, more readable. |
-| XML | Claude Code | Well-structured and shorter format, which can help save redundant reading and costs. But it requires more capable models. |
+| XML | Claude Code | Well-structured and shorter format, which reduces redundant reading and saves costs» або «which helps reduce redundant reading and save costs. |
 
 ## Verified
 
