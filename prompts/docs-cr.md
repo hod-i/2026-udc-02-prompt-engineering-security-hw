@@ -5,6 +5,7 @@ version: 1
 ---
 
 # docs-cr
+
 Reviews JSDoc comments and inline documentation in `app/src/money.ts` for clarity, accuracy, and completeness. Does not edit code — suggests improvements only.
 
 ## Production — markdown (OpenAI / GPT-5.x dialect)

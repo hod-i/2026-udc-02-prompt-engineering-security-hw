@@ -5,6 +5,7 @@ version: 1
 ---
 
 # add-test
+
 app/src/money.test.ts for missing coverage of app/src/money.ts and add only the absent test cases. Do not modify app/src/money.ts.
 
 ## Production — markdown (OpenAI / GPT-5.x dialect)

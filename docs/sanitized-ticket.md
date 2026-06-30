@@ -39,23 +39,23 @@ for the WS2 sanitization exercise. Do NOT treat as real PII/secrets. Your task
 
 ## Дані клієнта (з CRM)
 
-- ПІБ: **[CUSTOMER_1]**
-- email: **[EMAIL_REDACTED]**
-- телефон: **[PHONE_REDACTED]**
-- дата народження: **[DOB_REDACTED]**
+- ПІБ: [CUSTOMER_1]
+- email: [EMAIL_REDACTED]
+- телефон: [PHONE_REDACTED]
+- дата народження: [DOB_REDACTED]
 - картка: ******-****-****-1234** (Visa, exp <EXP>, CVV <CVV>)
 - IBAN: **UA90 ****-****-****-0260 0012 3456 789**
-- баланс: **<BALANCE>**
-- паспорт: **[PASSPORT_REDACTED]**, РНОКПП (ІПН): [TAX_ID_REDACTED]
+- баланс: <BALANCE>
+- паспорт: [PASSPORT_REDACTED], РНОКПП (ІПН): [TAX_ID_REDACTED]
 
 ## Кроки відтворення (з production-логу)
 
-```
+
 2026-05-30 14:02:11 INFO  txn=TX-99812 account=<ACCOUNT> amount=<AMOUNT> fee=<FEE>
 2026-05-30 14:02:11 INFO  txn=TX-99812 fee applied twice -> total fee <FEE>
 2026-05-30 14:02:12 DEBUG  db=<SECRET_OUT_OF_BAND>
 2026-05-30 14:02:12 DEBUG  calling fee-service with X-API-Key: <SECRET_OUT_OF_BAND>
-```
+
 
 ## Внутрішня логіка (з репозиторію payments-core)
 

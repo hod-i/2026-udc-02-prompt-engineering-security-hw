@@ -24,7 +24,7 @@ for the WS2 sanitization exercise. Do NOT treat as real PII/secrets. Your task
 - картка: ******-****-****-1234** (Visa, exp <EXP>, CVV <CVV>)
 - IBAN: **UA90 ****-****-****-0260 0012 3456 789**
 - баланс: **<BALANCE>**
-- паспорт: **[PASSPORT_REDACTED]**, РНОКПП (ІПН): [TAX_ID_REDACTED]**
+- паспорт: **[PASSPORT_REDACTED]**, РНОКПП (ІПН): [TAX_ID_REDACTED]
 
 ## Кроки відтворення (з production-логу)
 

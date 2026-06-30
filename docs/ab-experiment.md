@@ -1,13 +1,10 @@
 # A/B промптів (Task D, bonus)
 
-> Скопіюйте у `docs/ab-experiment.md` і заповніть.
-
 Задача (на `app/`): додати нові правила для функцій для файлів money.ts.
 
 ## Промпт A — базовий
 
 improve please functions in money.ts and money.test.ts for my business.
-
 
 ## Промпт B — структурований
 
@@ -32,8 +29,6 @@ Stop rules:
 - Stop if the file has no exported functions or is empty.
 - Do not report language/type issues — those belong in the technical reviewer.
 ```
-
-Test coverage: None.
 
 ## Порівняння
 

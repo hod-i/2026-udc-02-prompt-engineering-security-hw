@@ -2,9 +2,9 @@
 
 ## 1. Classify (Traffic Light)
 
-- [ ] **🔴 — Never public:** secrets (keys, tokens, passwords, connection strings), PII (name, email, phone, date of birth, passport, tax ID), banking data (card, CVV, IBAN, account, balance), production data/dumps, medical/government/regulated data, private SSH/TLS keys, internal service credentials, audit/access logs with user actions.
-- [ ] **🟡 — Enterprise/no-train only:** internal code under NDA, business logic, DB schemas, architecture, tickets with context, anonymized logs, non-public test configurations, internal tooling scripts, meeting notes with business context.
-- [ ] **🟢— Safe to share publicly:** public/OSS code, synthetic data, general questions, documentation without data, stack traces without values, unit test code, public changelogs, generic error messages without sensitive values.
+- [ ] 🔴 — Never public:** secrets (keys, tokens, passwords, connection strings), PII (name, email, phone, date of birth, passport, tax ID), banking data (card, CVV, IBAN, account, balance), production data/dumps, medical/government/regulated data, private SSH/TLS keys, internal service credentials, audit/access logs with user actions.
+- [ ] 🟡 — Enterprise/no-train only:** internal code under NDA, business logic, DB schemas, architecture, tickets with context, anonymized logs, non-public test configurations, internal tooling scripts, meeting notes with business context.
+- [ ] 🟢— Safe to share publicly:** public/OSS code, synthetic data, general questions, documentation without data, stack traces without values, unit test code, public changelogs, generic error messages without sensitive values.
 - [ ] When in doubt — treat as Red.
 
 ## 2. Clean (Technique by Category)

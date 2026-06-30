@@ -5,6 +5,7 @@ version: 1
 ---
 
 # technical Review
+
 Technical reviewer that checks the TypeScript implementation of files  `app/src/*.ts` against language best practices. Covers type safety, error handling, edge cases, and code clarity — not business logic or cosmetic style.
 
 ## Production — markdown (GPT dialect)

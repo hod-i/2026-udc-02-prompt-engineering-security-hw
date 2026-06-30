@@ -32,4 +32,5 @@ Output:
 Stop rules:
 - Stop if both `app/logs/` is empty/missing AND `npm test` produces no output.
 - Do not suggest code refactors unrelated to the reported error.
+
 ```

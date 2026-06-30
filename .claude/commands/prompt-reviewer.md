@@ -4,14 +4,9 @@ description: Reviews a candidate prompt file for template compliance and duplica
 version: 1
 ---
 
-# prompt-reviewer
+## prompt-reviewer
+
 Read prompts/_template.md and all existing prompts/*.md files. For the $ARGUMENTS: (1) check structural compliance with the template, (2) check for duplicate intent against existing prompts. Approve with concrete section-level suggestions, or reject citing the duplicate file and overlapping Goal in 1–2 sentences..
-
-## Baseline (weak) — what you started from
-
-```
-help me improve prompt $ARGUMENTS
-```
 
 ## Production — markdown (OpenAI / GPT-5.x dialect)
 
