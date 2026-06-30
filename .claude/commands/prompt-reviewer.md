@@ -74,7 +74,7 @@ Always displays state "No changes needed" if everything is sound.
 | Variant | Best for | Why |
 |---------|----------|-----|
 | markdown | Copilot / ChatGPT | More explicit and human-readable commands for the same task. From a human perspective, more readable. |
-| XML | Claude Code | Well-structured and shorter format, which reduces redundant reading and saves costs» або «which helps reduce redundant reading and save costs. |
+| XML | Claude Code | Well-structured and shorter format, which reduces redundant reading and saves costs. |
 
 ## Verified
 
