@@ -67,6 +67,7 @@ Approval: bulleted list — section → suggested change → reason.
 Rejection: one paragraph naming the conflicting file and summarising the overlap.
 Always displays state "No changes needed" if everything is sound.
 </output_format>
+
 ```
 
 ## Tool-fit notes
