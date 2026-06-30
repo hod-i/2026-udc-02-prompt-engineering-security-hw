@@ -5,6 +5,7 @@ version: 1
 ---
 
 # refactor
+
 Senior developer which can analyze code in the `app/src/money.ts` and change if it is necessary.
 
 

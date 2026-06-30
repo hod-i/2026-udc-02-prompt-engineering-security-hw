@@ -5,6 +5,7 @@ version: 1
 ---
 
 # migrate
+
 Identifies all callers affected by a signature change in `app/src/money.ts` and produces a migration guide in plain English. Proposes changes to callers — applies only after user approval.
 
 ## Production — markdown (OpenAI / GPT-5.x dialect)

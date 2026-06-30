@@ -9,8 +9,8 @@
 
 ## 2. Clean (Technique by Category)
 
-- [ ] **Redaction** — remove entirely (`[REDACTED]`): anything not needed for the task, use this technic for 🔴 PII data.
-- [ ] **Masking** — preserve format, hide value (`****-1234`, `<IBAN>`): when the model needs the structure. Use this technic for 🔴 banking data.
+- [ ] **Redaction** — remove entirely (`[REDACTED]`): anything not needed for the task, use this technique for 🔴 PII data.
+- [ ] **Masking** — preserve format, hide value (`****-1234`, `<IBAN>`): when the model needs the structure. use this technique for 🔴 banking data.
 - [ ] **Synthetic** — replace with realistic fictional data: when you need "real-looking" data for reproduction for 🟡.
 - [ ] **Secrets — out-of-band:** don't mask them, **don't provide them at all** (env / secret store); if they were exposed — rotate them.
 
@@ -25,11 +25,9 @@
 
 | Category | Allowed tool / tier | Notes |
 |---|---|---|
-| Green | e.g. any | |
-| Yellow | e.g. Copilot Business / Claude for Work — no-train | |
-| Red | do not give to models; local only / mask | |
-
-Щоб бути на безпечному боці, я попросив створити .ts для санітизації данних, і потім його можна буде використовувати для створення документа, що зменшить споживання токенів аналізу промтів, потім просто можна буде аналізувати за допомогою промту скільки данних санітизованих він знайшов і чи відповідають вони умовам безпекию.
+| Green | internal script | X |
+| Yellow | internal script | X |
+| Red | internal script |Щоб бути на безпечному боці, я попросив створити .ts для санітизації данних, і потім його можна буде використовувати для створення документа, що зменшить споживання токенів аналізу промтів, потім просто можна буде аналізувати за допомогою промту скільки данних санітизованих він знайшов і чи відповідають вони умовам безпекию. |
 
 ## 5. If a Leak Occurs
 

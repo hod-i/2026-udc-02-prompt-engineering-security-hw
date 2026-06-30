@@ -10,7 +10,7 @@ Read prompts/_template.md and all existing prompts/*.md files. For the $ARGUMENT
 ## Baseline (weak) — what you started from
 
 ```
-help me improve promt $ARGUMENTS
+help me improve prompt $ARGUMENTS
 ```
 
 ## Production — markdown (OpenAI / GPT-5.x dialect)
@@ -25,9 +25,9 @@ Context:
 Constraints:
 - Do not edit the candidate file or `prompts/_template.md`.
 - Do not invent new template rules; enforce only what `_template.md` defines.
-- in case if there no manipulatrion with .ts files, do not add running rests in verified section.
+- In case there is no manipulation with .ts files, do not add running tests in verified section.
 - No secrets or PII in output.
-- promt should have ## Production — XML (Anthropic / Claude dialect) or ## Production — markdown (OpenAI / GPT-5.x dialect) without sections
+- Prompt should have ## Production — XML (Anthropic / Claude dialect) or ## Production — markdown (OpenAI / GPT-5.x dialect) without sections
 without ## Tool-fit notes and ## Verified sections.
 Acceptance criteria:
 - Approved: every missing/weak section is listed with a one-sentence reason.
@@ -51,7 +51,7 @@ You are a senior prompt engineer. Given $ARGUMENTS as the candidate prompt file:
 2. Read all prompts/*.md and check for duplicate intent.
 Approve with section-level suggestions, or reject citing the duplicate file and overlapping Goal.
 Do not edit any file.
-- in case if there no manipulatrion with .ts files, do not add running rests in verified section.
+- In case there is no manipulation with .ts files, do not add running tests in verified section.
 </instructions>
 
 <context>
@@ -77,10 +77,10 @@ Rejection: duplicate file path + 1–2 sentence overlap summary.
 
 | Variant | Best for | Why |
 |---------|----------|-----|
-| markdown | Copilot / ChatGPT |more wide and undestandable commands for the same task. From humans prospective more understandable|
-| XML | Claude Code | well stuctured and shorter fomat, which could help to save redundant reading anc costs. But it requires more clever models|
+| markdown | Copilot / ChatGPT | More verbose and understandable commands for the same task. From a human perspective, more readable. |
+| XML | Claude Code | Well structured and shorter format, which can help save redundant reading and costs. But it requires more capable models. |
 
 ## Verified
 
-- [x] Run against a real candidate prompt via `/promtreviewer prompts/<file>.md`
+- [x] Run against a real candidate prompt via `/prompt-reviewer prompts/<file>.md`
 - [x] Agent stayed in scope (no files edited; only suggestions or rejection displayed)

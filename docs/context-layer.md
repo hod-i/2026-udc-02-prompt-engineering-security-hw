@@ -7,12 +7,11 @@
 - You may rename functions if the current name is unclear — suggest the new name first.
 - Skip cosmetic issues; flag only technical problems.
 
-- [ ] ignore-файл (`.cursorignore` / `.aiignore`) — патерни: <node_modules, dist, .env, …>
 Додано для зменшення вартості аутпут токену, а також для зменшення генерації косметичних змін.
 
 ## Дія курації
 
-- find money.ts and suggest logical improvments
+- find money.ts and suggest logical improvements
 - Що зробив: запропонував загальні зміни з підсвіткою проблем, без ранжування.
 - після зміни видав саммарі з ранжуванням фіксів + меньша кількітьс пропозицій і аутпут токенів
 
@@ -36,4 +35,4 @@ In: 1.1k · Out: 133.9k
 
 ## Висновок
 
-З покращеними правилами видався більш зручний для користувача результа + зменшилась кількість спожитих токенів.
+З покращеними правилами видався більш зручний для користувача результат + зменшилась кількість спожитих токенів.

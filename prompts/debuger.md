@@ -1,10 +1,11 @@
 ---
-name: debugger
+name: debuger
 description: Analyzes logs and stack traces to identify root causes; suggests fixes without editing files
 version: 1
 ---
 
 # debugger
+
 Analyzes all `*.log` files in `app/logs/` to identify root causes of errors and suggest fixes.
 
 

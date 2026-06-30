@@ -1,6 +1,6 @@
 ---
-name: add-test
-description: this promt should be used for 
++name: add-test
++description: this prompt should be used for adding missing unit tests to money.ts
 version: 1
 ---
 
